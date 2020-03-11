@@ -1,0 +1,55 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100i,300i,400,400i,500,500i,700,700i&display=swap');
+
+/* normalize.css */
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+
+/* font-awesome icons */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css');
+
+@import './media.css';
+@import './tabs.css';
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 21px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+img {
+  margin: 0;
+}
+
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 2000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header__h1 {
+  text-transform: uppercase;
+  color: #000;
+  font-size: 40px;
+  letter-spacing: 2px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.header__h1::before {
+  content: '';
+  border-left: 10px solid #104e9b;
+  height: 80%;
+  left: 0px;
+  bottom: 4px;
+  position: absolute;
+}

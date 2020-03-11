@@ -1,0 +1,146 @@
+@media (max-width: 480px) {
+  .mobile-first {
+    padding: 9px 9px;
+  }
+
+  .header {
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  .header__h1 {
+    text-transform: uppercase;
+    color: #104e9b;
+    font-size: 20px !important;
+    letter-spacing: 2px;
+    position: relative;
+  }
+
+  .header__h1::before {
+    content: '';
+    border-left: 8px solid #104e9b;
+    height: 100%;
+    left: 0px;
+    position: absolute;
+  }
+
+  .img {
+    width: 100%;
+
+  }
+
+  .text {
+    font-size: 20px;
+    padding: 12px 0px 8px 0;
+  }
+}
+
+@media (min-width: 481px) {
+  .mobile-first {
+    display: none;
+  }
+
+
+}
+
+@media (max-width: 481px) {
+  .wrapper {
+    display: none;
+  }
+}
+
+@media (max-width: 410px) {
+  .header__h1 {
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .header__h1 {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header__h1 {
+    text-transform: uppercase;
+    color: #104e9b !important;
+    font-size: 20px !important;
+    letter-spacing: 2px;
+    position: relative;
+  }
+
+  .container {
+    max-width: 990px !important;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .tab-li,
+  a {
+    font-size: 22px !important;
+    font-weight: normal !important;
+  }
+
+  .tab-nav li {
+    padding: 40px 0px 40px 0 !important;
+  }
+
+  .tab-li {
+    margin-bottom: 20px !important;
+  }
+
+  .tab-li:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  .tab__p {
+    font-size: 20px !important;
+    font-weight: normal !important;
+    padding-top: 25px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 740px !important;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .tab-li,
+  a {
+    font-size: 22px !important;
+    font-weight: normal !important;
+  }
+
+  .tab-nav li {
+    padding: 40px 0px 40px 0 !important;
+  }
+
+  .tab-li {
+    margin-bottom: 10px !important;
+  }
+
+  .tab-li:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  .tab__info-pic {
+    height: 50%;
+  }
+
+  .tab__info-p {
+    height: 50%;
+    align-items: center !important;
+  }
+
+  .tab__p {
+    font-size: 20px !important;
+    font-weight: normal !important;
+    padding-top: 0 !important;
+    align-items: center !important;
+  }
+}
